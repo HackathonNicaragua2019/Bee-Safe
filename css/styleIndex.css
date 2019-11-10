@@ -3,9 +3,13 @@
 }
 
 #tituloBanner1{
-    font-size: ;
+    font-size: 70px;
 }
 
 #bannerIndex2{
     background-image: url('../asset/img/Banners/banner2.jpg');
+}
+
+#logoBee{
+    width: 17%;
 }

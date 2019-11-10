@@ -30,6 +30,9 @@
             <li class="nav-item">
             <a class="nav-link disabled" href="#">Nosotros</a>
             </li>
+            <li class="nav-item">
+            <a class="nav-link disabled" href="#">Mapa</a>
+            </li>
         </ul>
         <form class="form-inline mt-2 mt-md-0">
             <button class="btn btn-outline-success my-2 my-sm-0 " type="submit">Loging</button>
