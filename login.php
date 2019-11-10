@@ -1,10 +1,10 @@
 <?php include('header.php'); ?>
-    <div class="contenedor">
+    <div class="contenedor" id="contenedorLogin">
         <form action="" class="formularioLoging">
-            <input type="text" placeholder="Nombre" name="nombreUsuario">
-            <input type="text" placeholder="Contraseña" name="contraseñaUsuario">
-            <input type="submit" value="Iniciar">
-            <input type="button" value="Registrar" onclick="windows.location.href='register.php'">
+            <input type="text" placeholder="Nombre" name="nombreUsuario" class="textLogin">
+            <input type="text" placeholder="Contraseña" name="contraseñaUsuario" class="textLogin">
+            <input type="submit" value="Iniciar" class="inputBotonLogin">
+            <input type="button" value="Registrar" onclick="goRegistro()" class="inputBotonLogin">
         </form>
     </div>
 <?php include('footer.php'); ?>
