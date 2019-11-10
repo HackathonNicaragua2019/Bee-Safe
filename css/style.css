@@ -44,6 +44,7 @@
     display: flex;
     flex-flow: row;
     align-self: center;
+    flex-grow: inherit;
 }
 
 .itemBotones{
