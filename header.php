@@ -17,7 +17,7 @@
 </head>
 <body>
     <div class="contenedor">
-        <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+        <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark" id="navega1">
         <a class="navbar-brand" href="index.php">Bee Safe</a>
         <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -31,14 +31,14 @@
             <a class="nav-link" href="guia.php">Guia de prevención</a>
             </li>
             <li class="nav-item">
-            <a class="nav-link disabled" href="#">Nosotros</a>
+            <a class="nav-link" href="nosotros.php">Nosotros</a>
             </li>
             <li class="nav-item">
             <a class="nav-link disabled" href="#">Mapa</a>
             </li>
         </ul>
         <form class="form-inline mt-2 mt-md-0">
-            <button class="btn btn-outline-success my-2 my-sm-0 " type="submit">Loging</button>
+        <a href="login.php" class="loginDic"><button class="btn btn-outline-success my-2 my-sm-0 " type="submit" onclick="goLogin()">Login</button></a>
         </form>
         </div>
     </nav>  

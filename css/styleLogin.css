@@ -41,3 +41,13 @@
     align-self: center;
     font-size: 20px;
 }
+
+.inputBotonLogin:hover{
+    background-color: rgba(0,118,128,1);
+    color: rgba(255,255,255,1);
+}
+
+#btnPrimerBoton{
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
