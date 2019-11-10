@@ -1,6 +1,6 @@
 <?php include('header.php'); ?>
     <div class="contenedor" id="contenedorRegistro">
-        <form action="guardarUsuarios.php" method="POST" class="forularioRegistro">
+        <form action="guardarUsuario.php" method="POST" class="forularioRegistro">
             <input type="text" name="nombreUsuario" class="textNombre" id="TxtNombre" placeholder="Nombre">
             <input type="text" name="passwordUsuario" class="textNombre" id="TxtNombre" placeholder="Contraseña">
             <input type="text" name="cedulaUsuario" class="textNombre" id="TxtNombre" placeholder="Cedula:161XXXX000XN">
