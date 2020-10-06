@@ -1,0 +1,22 @@
+/*Seccion*/
+.seccionBussines {
+  width: 100%;
+  height: 100vh;
+  margin-bottom: 20px;
+  background-color: brown;
+}
+
+/*Tarjetas de negocios*/
+.negociosCards {
+  text-decoration: none;
+  list-style: none;
+  text-decoration-style: none;
+  color: rgb(0, 0, 0);
+}
+
+.negociosCards::hover {
+  text-decoration: none;
+  list-style: none;
+  text-decoration-style: none;
+  color: black;
+}

@@ -1,0 +1,231 @@
+/*Tipografía*/
+@font-face {
+  font-family: Sofia;
+  src: url(fonts/sofiapro-light.otf);
+}
+
+@font-face {
+  font-family: Gilroy_Lh;
+  src: url(fonts/Gilroy-Light.otf);
+}
+
+@font-face {
+  font-family: Gilroy_B;
+  src: url(fonts/Gilroy-ExtraBold.otf);
+}
+
+header {
+  position: absolute;
+  z-index: 10;
+  width: 100%;
+}
+body {
+  background-color: #f8f9fa;
+}
+
+.navbar {
+  padding: 20px 0;
+}
+
+.imgLogo {
+  height: 10vh;
+}
+
+.nav-item {
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.navbar-light .navbar-nav .nav-item.active .nav-link,
+.navbar-light .navbar-nav .nav-item .nav-link:hover {
+  background: #007680;
+  color: #fff;
+}
+
+.navbar-light .navbar-nav .nav-item .nav-link {
+  color: #007680;
+  padding: 5px 15px;
+}
+
+.navbar-light .navbar-toggler {
+  border: none;
+  color: #fff;
+  border: 2px solid #7f7f7f;
+  border-radius: 0;
+  outline: none;
+}
+
+/*Seccion del Abaout*/
+.sectionAbout {
+  width: 100%;
+  height: 25vh;
+  /*background-color: brown;*/
+}
+
+.titleAbout {
+  margin-top: 35px;
+  margin-bottom: 40px;
+  font-size: 2.8em;
+  font-weight: 600;
+  color: #007680;
+  font-family: Gilroy_B;
+}
+
+.parrAbout {
+  font-size: 1.3em;
+  font-family: Sofia;
+  text-align: left;
+}
+
+#imagRight {
+  /*background-color: yellow;*/
+}
+
+#imgAboutTeam {
+  margin-top: 60px;
+}
+
+.lineAbout {
+  margin-top: 60px;
+  margin-bottom: 50px;
+  background-color: #007680;
+  text-align: justify;
+}
+
+/*Parrafos de explicacion de equipo*/
+#contenedorInfoAbout1 {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+#tituloAboutDos {
+  margin-top: -10px;
+  margin-bottom: 10px;
+  font-size: 2.2em;
+  font-family: Sofia;
+}
+
+#parrAbout2 {
+  margin-top: 0px;
+  margin-bottom: 40px;
+  text-align: left;
+}
+
+#linkAbout {
+  text-decoration: none;
+  text-emphasis: none;
+  color: #007680;
+  font-weight: 500;
+}
+
+#imagenAbout2 {
+  margin-top: -30px;
+}
+
+/*Parrafo Largo*/
+#parrAbout3 {
+  margin-top: 30px;
+}
+
+/*Seccion About Banner*/
+.sectionAboutBanner {
+  width: 100%;
+  height: 115vh;
+  background-image: url(../assets/Banners/About/BannerAboutfinal.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  display: flex;
+}
+
+#columnaFotos {
+  height: fit-content;
+}
+
+#FtM {
+  width: 100%;
+  height: 100vh !important;
+  margin-bottom: 30px !important;
+  cursor: pointer;
+}
+
+.fotoBannerPersonas {
+  margin-bottom: 10px !important;
+  cursor: pointer !important;
+}
+
+/*Footer*/
+.piePagina {
+  width: 100%;
+  height: fit-content;
+  background-color: #007680;
+}
+
+.socialMediaFooter {
+  height: 4.5vh;
+  margin: 7px;
+  margin-top: 60px;
+}
+
+#socialMediaLogos {
+  margin-left: 25px;
+}
+
+#logoFooter {
+  height: 9.5vh;
+  margin-bottom: 20px;
+  margin-left: 25px;
+}
+
+.parrafo {
+  font-family: Sofia;
+  font-size: 1.26em;
+  color: rgba(255, 255, 255, 0.7);
+}
+
+#parrFooter {
+  margin-left: 25px;
+  font-size: 1.3em;
+}
+
+@media (max-width: 500px) {
+  /*Primera Seccion About*/
+  .titleAbout {
+    margin-top: -15px;
+    margin-bottom: 8px;
+    font-size: 2.2em;
+  }
+
+  .parrAbout {
+    font-size: 1em;
+  }
+
+  #imgAboutTeam {
+    margin-top: 0px;
+    margin-bottom: -12px;
+  }
+
+  /*Parrafo Seccion 2*/
+  #tituloAboutDos {
+    margin-top: -25px;
+    margin-bottom: 20px;
+    font-size: 1.9em;
+  }
+
+  #parrAbout3 {
+    margin-top: -20px;
+  }
+
+  #imagenAbout2 {
+    margin-bottom: 15px;
+  }
+
+  /*Footer*/
+  #parrFooter {
+    font-size: 1.1em;
+  }
+
+  #logoFooter {
+    height: 7vh;
+  }
+}

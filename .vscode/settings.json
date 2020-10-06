@@ -1,0 +1,9 @@
+{
+  "todo-tree.filtering.excludeGlobs": [
+    "\"**/node_modules/**\"",
+    "\"**/vendor/**\"",
+    "\"**/bower_components/**\"",
+    "\"**/dist/**\""
+  ],
+  "todo-tree.general.tags": ["BUG", "FIXME", "TODO", "PROCESS", "DONE"]
+}

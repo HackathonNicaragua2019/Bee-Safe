@@ -1,80 +1,181 @@
-.contenedor{
-    width: 100%;
-    height: 100%;
+/*Tipografía*/
+@font-face {
+  font-family: Sofia;
+  src: url(fonts/sofiapro-light.otf);
 }
 
-
-.banner1{
-    width: 100%;
-    height: 100vh;
-    background-color: crimson;
-    background-attachment: fixed;
-    background-position: 50% 50%;
-    background-size: cover;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+@font-face {
+  font-family: Gilroy_Lh;
+  src: url(fonts/Gilroy-Light.otf);
 }
 
-
-.contTexto{
-    width: 100%;
-    height: 100vh;
-    display: flex;
-    flex-flow: column;
-    overflow: hidden;
-    padding-top: 15vh;
+@font-face {
+  font-family: Gilroy_B;
+  src: url(fonts/Gilroy-ExtraBold.otf);
 }
 
-.titulosBanner{
-    font-size: 75px;
-    color: rgb(0,118,128);
+header {
+  position: absolute;
+  z-index: 10;
+  width: 100%;
+}
+.navbar {
+  padding: 20px 0;
 }
 
-.cuerpoTexto{
-    font-family: 'Montserrat', sans-serif;
-    font-size: 35px;
-    width: 90%;
-    margin-left: 7vw;
+.imgLogo {
+  height: 10vh;
 }
 
-.botonera{
-    width: 30%;
-    height: 40px;
-    display: flex;
-    flex-flow: row;
-    align-self: center;
-    flex-grow: inherit;
+.nav-item {
+  font-weight: 600;
+  text-transform: uppercase;
 }
 
-.itemBotones{
-    width: 20%;
-    height: 80px;
-    background-color: rgb(200,98,2);
-    margin-left: 15px;
-    text-align: center;
+.navbar-light .navbar-nav .nav-item.active .nav-link,
+.navbar-light .navbar-nav .nav-item .nav-link:hover {
+  background: #007680;
+  color: #fff;
 }
 
-.itemBotones:hover{
-    background-color: rgb(0,118,128);
+.navbar-light .navbar-nav .nav-item .nav-link {
+  color: #007680;
+  padding: 5px 15px;
 }
 
-.linksMenu{
-    text-decoration: none;
-    color: rgba(255,255,255,1);
-    font-family: 'Montserrat', sans-serif;
+.navbar-light .navbar-toggler {
+  border: none;
+  color: #fff;
+  border: 2px solid #7f7f7f;
+  border-radius: 0;
+  outline: none;
 }
 
-.loginDic{
-    text-decoration: none;
-    color: rgba(255,255,255,1);
+.banner {
+  min-height: 100vh;
+  padding: 250px 90px 200px;
+  background-image: url(../assets/Banners/Banner1.3.jpg);
+  /*Parallax*/
+  background-size: cover;
+  background-position: center;
+  /*background-attachment: fixed;*/
+  position: relative;
 }
 
-.loginDic:hover{
-    text-decoration: none;
-    color: rgba(255,255,255,1);
+#banner1 {
+  background-image: url(../assets/Banners/Bannner1.jpg);
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  position: relative;
 }
 
-#navega1{
-    background-color: rgb(0,118,128)!important;
+#banner2 {
+  background: url(../assets/img/Banners/index/Banner1-Blue.jpg);
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  position: relative;
+}
+
+#banner3 {
+  background: url(../assets/img/Banners/index/Banner3-blue.jpg);
+  background-size: cover;
+  background-position: center;
+  /*background-attachment: fixed;*/
+  position: relative;
+}
+
+#banner4 {
+  background: url(../assets/img/Banners/index/Banner4-blue.jpg);
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  position: relative;
+}
+
+.banner h2 {
+  font-size: 2.8em;
+  font-weight: 1000;
+  text-transform: uppercase;
+  color: #fff;
+}
+
+.banner p {
+  margin: 1em 0 0;
+  margin-bottom: 1.5vh;
+  padding: 0;
+  font-size: 1.2em;
+  font-weight: 270;
+  color: #fff;
+  line-height: 1.5em;
+}
+
+.btnD1 {
+  display: inline-block;
+  margin: 1em 0 0;
+  background-color: #ff2670;
+  color: #fff;
+  padding: 10px 20px;
+  text-transform: uppercase;
+  border: none;
+  font-weight: 800;
+}
+
+.btnD1:hover {
+  color: #fff;
+  text-decoration: none;
+}
+
+@media (max-width: 988px) {
+  .navbar-collapse {
+    background: #fff;
+  }
+}
+
+@media (max-width: 768px) {
+  .banner {
+    padding: 200px 65px 0px;
+  }
+
+  .banner h2 {
+    font-size: 1.5em;
+  }
+
+  .banner p {
+    font-size: 0.98em;
+  }
+
+  .btnD1 {
+    font-weight: 550;
+    padding: 7px 15px;
+  }
+}
+
+/*Footer*/
+.piePagina{
+  width: 100%;
+  height: 50vh;
+  background-color: #007680;
+}
+
+.socialMediaFooter{
+  height: 4.5vh;
+  margin: 7px;
+  margin-top: 60px;
+}
+
+#socialMediaLogos{
+  margin-left: 25px;
+}
+
+#logoFooter{
+  height: 9.5vh;
+  margin-bottom: 20px;
+  margin-left: 25px;
+}
+
+#parrFooter{
+  margin-left: 25px;
+  font-size: 1.3em;
 }

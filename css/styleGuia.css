@@ -1,0 +1,171 @@
+/*Tipografía*/
+@font-face {
+    font-family: Sofia;
+    src: url(fonts/sofiapro-light.otf);
+  }
+  
+  @font-face {
+    font-family: Gilroy_Lh;
+    src: url(fonts/Gilroy-Light.otf);
+  }
+  
+  @font-face {
+    font-family: Gilroy_B;
+    src: url(fonts/Gilroy-ExtraBold.otf);
+  }
+  
+  header {
+    position: absolute;
+    z-index: 10;
+    width: 100%;
+  }
+  body {
+    background-color: #f8f9fa;
+  }
+  
+  .navbar {
+    padding: 20px 0;
+  }
+  
+  .imgLogo {
+    height: 10vh;
+  }
+  
+  .nav-item {
+    font-weight: 600;
+    text-transform: uppercase;
+  }
+  
+  .navbar-light .navbar-nav .nav-item.active .nav-link,
+  .navbar-light .navbar-nav .nav-item .nav-link:hover {
+    background: #fff;
+    color: #007680;
+  }
+  
+  .navbar-light .navbar-nav .nav-item .nav-link {
+    color: #fff;
+    padding: 5px 15px;
+  }
+  
+  .navbar-light .navbar-toggler {
+    border: none;
+    color: #fff;
+    border: 2px solid #7f7f7f;
+    border-radius: 0;
+    outline: none;
+  }
+  
+  /*Seccion About*/
+  .sectionGuia{
+    width: 100%;
+    height: 100vh;
+    background-image: url(../assets/Banners/BannerGuia.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    display: flex;
+}
+
+#primerTextoBannerGuia{
+    margin-top: 25vh;
+    color: #fff;
+    font-family: Sofia;
+    font-size: 1.2em;
+}
+
+ #BoldTextoBanner{
+     font-family: Gilroy_B;
+}
+
+.infoPieTexto{
+    color: #fff;
+    font-family: Sofia;
+    font-size: 0.8em;
+}
+
+/*Tipos de Violencia*/
+#tiposViolencia{
+    height: 105vh;
+}
+
+.tituloTiposViolencia{
+    margin-top: 70px;
+    color: #007680;
+    font-family: Gilroy_Lh;
+    font-size: 3.5em;
+    font-weight: bolder;
+}
+  
+.subtituloTiposViolencia{
+    color: #007680;
+    font-family: Sofia;
+    font-size: 1.9em;
+    font-weight: bold;
+}
+
+#violenciaCards{
+  height: 250px;
+  margin-top: 70px;
+  margin-bottom: 30px;
+  font-family: Sofia;
+}
+
+#lastViolence{
+  margin-bottom: 5px;
+}
+
+#botonInfoViolencia{
+  background-color: #007680;
+  border: 1px solid #007680;;
+}
+
+#botonInfoViolencia:last-child{
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+  /*Footer*/
+  .piePagina{
+    width: 100%;
+    height: fit-content;
+    background-color: #007680;
+  }
+  
+  .socialMediaFooter{
+    height: 4.5vh;
+    margin: 7px;
+    margin-top: 60px;
+  }
+  
+  #socialMediaLogos{
+    margin-left: 25px;
+  }
+  
+  #logoFooter{
+    height: 9.5vh;
+    margin-bottom: 20px;
+    margin-left: 25px;
+  }
+  
+  .parrafo {
+    font-family: Sofia;
+    font-size: 1.26em;
+    color: rgba(255, 255, 255, 0.7);
+  }
+  
+  #parrFooter{
+    margin-left: 25px;
+    font-size: 1.3em;
+  }
+
+
+@media (max-width:500px){
+    #tiposViolencia{
+      height: auto;
+    }
+    
+    .piePagina{
+        height: fit-content;
+        margin-bottom: 10px;
+    }
+}
